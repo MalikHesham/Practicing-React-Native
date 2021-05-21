@@ -1,12 +1,6 @@
 import { StyleSheet, View } from "react-native";
 import React from "react";
-import Register from "./Register.js";
-import TodoList from "./TodoList";
+import Routes from "./Routes";
 export default function App() {
-  return (
-    <View>
-      <Register />
-      <TodoList />
-    </View>
-  );
+  return <Routes />;
 }
